@@ -1,13 +1,10 @@
-function consigna(numero){
-    for(let i=1; i<numero; ++i){
-        for(let j=0; j<i; ++j){
-            console.log(i);
-        }
+
+function piramide(numero){
+    let espacio = numero;
+    for(let i=0; i<=numero; i++){
+        console.log(' '.repeat(espacio--) + '#'.repeat(i) + ' ' + '' + '#'.repeat(i));
     }
 }
 
-consigna(7); 
- 
-
-
+piramide(7);
 
