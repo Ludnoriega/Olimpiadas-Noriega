@@ -1,0 +1,90 @@
+div{
+    display: inline;
+}
+form{
+    position: relative;
+    top: 15vh;
+    height: 55vh;
+}
+.contenedor{
+    background: blueviolet;
+}
+.div_usu{
+    position: relative;
+    left: 90vh;
+}
+    .ingresar_usu{
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        left: -3vh;
+    }
+    .usuario{
+        position: relative;
+        left: -10vh;
+        width: 50vh;
+        height: 4vh;
+        border-radius: 10px;
+        border-color: blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bolder;
+        text-align: center;
+        font-size: large;
+    }
+
+.div_contra{
+    position: relative;
+    left: 90vh;
+    top: 5vh;
+}
+    .ingresar_contra{
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        left: -7vh;
+    }
+    .contrasenia{
+        position: relative;
+        left: -10vh;
+        width: 50vh;
+        height: 4vh;
+        border-radius: 10px;
+        border-color: blueviolet;
+        text-align: center;
+        font-size: large;
+        
+    }
+
+.div_inicio{
+    position: relative;
+    top: 15vh;
+    left: 40vh;
+}
+    .inicio{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        width: 30vh;
+        height: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-color: blueviolet;
+        border-radius: 5px;
+        background: rgb(178, 133, 219);
+    }
+
+.div_cancelar{
+    position: relative;
+    top: 25vh;
+    left: 9.5vh;
+}
+    .cancelar{
+        font-family: 'Courier New', Courier, monospace;
+        color: black;
+        width: 30vh;
+        height: 30px;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: bolder;
+        border-color: blueviolet;
+        border-radius: 5px;
+        background: rgb(178, 133, 219);
+    }
