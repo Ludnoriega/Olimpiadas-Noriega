@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="resources/estilo_registro.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+    <div class="contorno">
+        <form action="/register" method="POST" class="formulario">
+            <h1>REGISTRO</h1>
+            <div class="div_usu">
+                <h2 class="ingresar_usu">INGRESE NOMBRE DE USUARIO:</h2>
+                <input name="usuario" class="usuario" type="text" required>
+            </div>
+            <div class="div_contra">
+                <h2 class="ingresar_contra">INGRESE LA CONTRASEÑA:</h2>
+                <input name="password" class="contrasenia" type="password" required>
+            </div>
+            <div class="div_registrar">
+                <button type="submit" name="registrar" class="registrar">REGISTRARSE</button>
+            </div>
+            <div class="div_cancelar">
+                <button type="reset" name="cancelar" class="cancelar"><a href="/">CANCELAR</a></button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

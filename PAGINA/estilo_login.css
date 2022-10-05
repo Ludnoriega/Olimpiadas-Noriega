@@ -4,11 +4,30 @@ div{
 form{
     position: relative;
     top: 15vh;
-    height: 55vh;
 }
-.contenedor{
-    background: blueviolet;
+
+/*.contorno{
+    position: relative;
+    width: 100vh;
+    height: 60vh;
+    display: inline-block;
+    box-shadow: 0 5px 38px black, 0 15px 12px blueviolet;
+}*/
+h1{
+    position: relative;
+    top: -5vh;
+    left: 97vh;
+    font-family: 'Courier New', Courier, monospace;
 }
+a{
+    position: relative;
+    top: 30vh;
+    left: -17vh;
+    font-size:larger;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
 .div_usu{
     position: relative;
     left: 90vh;
